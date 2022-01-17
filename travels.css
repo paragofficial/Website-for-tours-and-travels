@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,  url(thailand-g0f283028f_640.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* thailand-g0f283028f_640 */
+    /*  */
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 32px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 4px 16px;
+    margin: 2px;
+    border: 1px solid rgba(10, 151, 245, 0.966);
+    border-radius: 13px;
+}
+
+ul li a:hover{
+    background-color: rgb(85, 163, 85);
+    color: black;
+    transition: 0.5s;
+    
+}
+
+.logo img{
+    float: left;
+width: 88px;
+height: 88px;
+margin-top: 14px;
+/* opacity: 1; */
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@keyframes twinkel {
+    from{background-color: rgb(29, 212, 59);}
+    to{background-color: rgb(44, 105, 116);}
+}
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 4px 16px;
+    margin: 2px;
+    border: 1px solid rgba(24, 63, 192, 0.966);
+    border-radius: 13px;
+    animation-name: twinkel;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.btn:hover{
+    background-color: rgb(85, 163, 85);
+    color: black;
+    transition: 0.5s;
+}
